@@ -4,9 +4,9 @@ class Database{
 
     public function connect(){
         try{
-            return new PDO('mysql:host=localhost;dbname=crud_ejemplo;charset=utf8;',
-                'root',
-                '',
+            return new PDO('mysql:host=mysql-gabrielvillegas.alwaysdata.net;dbname=gabrielvillegas_mvcexamen ;charset=utf8;',
+                'gabrivillegas',
+                'Noviembre-2006',
                 [
                     /**
                      * Activar el manejo de errores y retornar una exception.

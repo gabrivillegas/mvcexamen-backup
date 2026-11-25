@@ -21,8 +21,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `crud_ejemplo`
 --
-DROP DATABASE IF EXISTS crud_ejemplo;
-CREATE DATABASE crud_ejemplo;
 
 -- --------------------------------------------------------
 
